@@ -10,7 +10,8 @@ lazy val root = project
     scalaVersion := scala3Version,
 
     libraryDependencies ++= Seq(
-      "org.apache.kafka" % "kafka-clients" % "3.6.1",
+//      "org.apache.kafka" % "kafka-clients" % "3.6.1",
+      "org.apache.kafka" % "kafka-clients" % "3.7.0",
       "org.scalameta" %% "munit" % "0.7.29" % Test
     ),
 
